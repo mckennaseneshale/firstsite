@@ -1,0 +1,52 @@
+body{
+    background-color: /*#84b49a;*/ #eeeeef;
+    color: #07543a;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: blanchedalmond;
+    margin:0;
+    padding: 2rem
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px white;
+    font-size: 4rem;
+}
+/*link color: if you just want the link color, use a:link a:visited a:active a:hover*/
+nav a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+nav a:hover{
+  color: #eeeeef;  
+}
+nav{
+    background-color: #042b1e;
+    margin: 0;
+    padding: 1.5rem;
+}
+a{
+    color: #116581
+}
+a:hover{
+    color:#60bcdb
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    color: blanchedalmond;
+    background-color:#042b1e;
+    padding: 1rem 1rem 2rem 1rem; /*TRBL: top, rigjt, bottom, left*/
+    font-weight: bolder;
+    font-style: italic;
+}
+main .right{
+    float: right;
+    margin: 2rem
+}
+main{
+    max-width: 77rem;
+    margin: auto;
+}
